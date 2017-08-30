@@ -6,17 +6,27 @@ const Header = () => {
 
   return (
     <View style={viewStyle}>
-      <Text style={textStyle}>Thrive</Text>
+      <Text style={textStyle}>Thrive Ministry</Text>
     </View>
   ); 
 };
 
 const styles = {
   viewStyle: {
-    backgroundColor: '#83cdd9'
+    backgroundColor: '#83cdd9',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 65,
+    paddingTop: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    elevation: 2,
+    position: 'relative'
   },
   textStyle: {
-    fontSize: 25
+    color: '#ffffff',
+    fontSize: 20
   }
 };
 
