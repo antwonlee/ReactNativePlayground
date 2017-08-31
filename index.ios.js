@@ -5,12 +5,16 @@ import {
   Text,
   View
 } from 'react-native';
-import Header from './src/components/header'
+import Header from './src/components/header';
+import VolunteerList from './src/components/VolunteerList';
 
 export default class ReactNativePlayground extends Component {
   render() {
     return (
-      <Header />
+      <View>
+        <Header headerText={'Thrive Ministry'} />
+        <VolunteerList />
+      </View>
     );
   }
 }
